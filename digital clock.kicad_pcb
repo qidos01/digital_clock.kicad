@@ -145,6 +145,14 @@
 	(net 63 "unconnected-(U2-~{RESET}{slash}PC6-Pad1)")
 	(net 64 "unconnected-(U3-VBAT-Pad14)")
 	(net 65 "unconnected-(U3-~{RST}-Pad4)")
+	(net 66 "/F")
+	(net 67 "/E")
+	(net 68 "/A")
+	(net 69 "/G")
+	(net 70 "/D")
+	(net 71 "/B")
+	(net 72 "/C")
+	(net 73 "/GPIO")
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0016a56c-dc8d-4cce-8ffd-06a91f852626")
@@ -423,7 +431,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "0092162a-5420-492b-b23b-3e37318de53b")
-		(at 84.5 49.75)
+		(at 39 76)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D98"
@@ -645,7 +653,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "fc4811d7-c75e-46aa-8c21-6f79c379a26c")
@@ -665,7 +673,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "02cfcb59-07fb-461b-9a48-0cd3745ae55f")
-		(at 84.5 38.65)
+		(at 39.5 24)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D96"
@@ -887,7 +895,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 68 "/A")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "c0e1d12f-3661-4fa9-96b6-8fcc9b2a4a4c")
@@ -907,7 +915,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "03817d02-20c7-482e-b379-1835a7b662d6")
-		(at 78.6 71.95)
+		(at 29.765 53.9)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D89"
@@ -1129,7 +1137,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 67 "/E")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "cb063ae2-b147-47fe-8e69-7fdc7aeeeb95")
@@ -1149,7 +1157,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "03f6b707-aa21-4d69-a902-f02ace8c1dc1")
-		(at 102.2 71.95)
+		(at 182.5 56.55)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D141"
@@ -1371,7 +1379,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "8dec7ea6-d345-40f6-893e-516a15146c19")
@@ -1391,7 +1399,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "0507b380-7edf-49bd-a6c5-e5140cdf6c6a")
-		(at 72.7 88.6)
+		(at 98 38)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D79"
@@ -1613,7 +1621,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "24962f0a-cd93-402a-9a2e-9acdee5bbed8")
@@ -1633,7 +1641,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "07ba6175-37e7-4637-a889-ec5662abc0ce")
-		(at 84.5 27.55)
+		(at 34.765 49.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D94"
@@ -1648,7 +1656,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.27 2.96 0)
+			(at 0.995 1.01 0)
 			(layer "F.Fab")
 			(uuid "a394c06b-6757-4af6-90bd-903d4f8c24e6")
 			(effects
@@ -1855,7 +1863,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a0d6eca5-5449-4dad-93b5-c907162ba085")
@@ -1875,7 +1883,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "07f51d4e-a33a-4dd1-b1e6-80cc846e5a84")
-		(at 55 38.65)
+		(at 69.275 38)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D27"
@@ -2097,7 +2105,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 66 "/F")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a34ee6dd-bbc2-44b4-81c4-b13982f035e2")
@@ -2117,7 +2125,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "09729858-c684-4ced-a3fb-8cce614c2845")
-		(at 60.9 88.6)
+		(at 69 56.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D53"
@@ -2339,7 +2347,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 67 "/E")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "650123ea-dbcb-4d50-a85e-471884dc3380")
@@ -2359,7 +2367,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "0a0c0651-980a-47e7-9706-b74c4179980c")
-		(at 90.4 27.55)
+		(at 54.765 39.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D107"
@@ -2581,7 +2589,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "8ed1b1ef-c51a-4117-ad06-f09fa65fd97f")
@@ -2601,7 +2609,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "0dc8f90c-f164-415e-9780-451d38aba835")
-		(at 72.7 94.15)
+		(at 98.04 44)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D80"
@@ -2823,7 +2831,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "56068e5c-b09c-46f5-91ee-86fa092b0304")
@@ -2847,7 +2855,7 @@
 		(descr "1110U1Q 1110TNP 1110U2A 1110U0Q Potentiometer, horizontal, Alps RK163 Single, https://tech.alpsalpine.com/prod/e/pdf/potentiometer/rotarypotentiometers/rk16/rk16.pdf")
 		(tags "Potentiometer horizontal Alps RK163 Single")
 		(property "Reference" "RV1"
-			(at 0 15.2 360)
+			(at -85.4 20.3 0)
 			(layer "F.SilkS")
 			(uuid "7baddd91-0f7f-446b-a48f-df05ec10a0da")
 			(effects
@@ -2858,7 +2866,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -5.200001 360)
+			(at -85.4 -0.100001 0)
 			(layer "F.Fab")
 			(uuid "80dff7a6-aa9f-4cce-be93-93cd78a41f2b")
 			(effects
@@ -3153,7 +3161,7 @@
 			(uuid "ca607873-4b0c-455c-92e5-9178ccb2f3fd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.45 4.999999 360)
+			(at -83.95 10.099999 0)
 			(layer "F.Fab")
 			(uuid "2c754280-9225-47df-aefa-e1f15515f721")
 			(effects
@@ -3211,7 +3219,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "106284ef-45a1-43fb-b2d5-290fa5822d8a")
-		(at 114.92 59.02)
+		(at 270.52 58.07)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q9"
@@ -3440,10 +3448,285 @@
 			)
 		)
 	)
+	(footprint "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(layer "F.Cu")
+		(uuid "155efeb7-bb5b-4ea1-aabb-af5524f3e79d")
+		(at 169.29 127)
+		(descr "Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
+		(tags "Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm")
+		(property "Reference" "R28"
+			(at 6.35 -2.72 0)
+			(layer "F.SilkS")
+			(uuid "76603386-8906-4ef3-a3e5-f4efb481a235")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 6.35 2.72 0)
+			(layer "F.Fab")
+			(uuid "21c3be6c-ca0f-4447-8d2d-a60166a3eeaa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea6318f6-86ea-47d0-aa5a-a96d3fe64018")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dd00e4f-f4c8-452a-8043-93a516761f2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f037c580-34e6-4836-9c9a-5c15eded904b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/a473d15f-6cae-44dd-9eb1-5f870973c57a")
+		(sheetname "Root")
+		(sheetfile "digital clock.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 1.04 0)
+			(end 1.73 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dc7ae34a-5c7a-4f18-93ba-95ffc853e0e7")
+		)
+		(fp_line
+			(start 1.73 -1.72)
+			(end 1.73 1.72)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c018ce70-28d2-42d9-b08f-26e5cdaeb7fc")
+		)
+		(fp_line
+			(start 1.73 1.72)
+			(end 10.97 1.72)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "67c76fc3-382f-444f-9894-93e974a57932")
+		)
+		(fp_line
+			(start 10.97 -1.72)
+			(end 1.73 -1.72)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "35f6ae02-0496-4965-ac4d-7c4e8164aad0")
+		)
+		(fp_line
+			(start 10.97 1.72)
+			(end 10.97 -1.72)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "db864f6a-951e-4988-94f9-22647bf774b5")
+		)
+		(fp_line
+			(start 11.66 0)
+			(end 10.97 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cd9462db-e372-4308-8b69-2aea2912caa8")
+		)
+		(fp_line
+			(start -1.05 -1.85)
+			(end -1.05 1.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6a38ff16-dc4e-4dad-924e-3790bc3131eb")
+		)
+		(fp_line
+			(start -1.05 1.85)
+			(end 13.75 1.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f666e25a-bbc5-49d2-aa85-5c0a94a52fd8")
+		)
+		(fp_line
+			(start 13.75 -1.85)
+			(end -1.05 -1.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "19db6a3e-9777-4dcb-92d3-c20f1a4cc2fe")
+		)
+		(fp_line
+			(start 13.75 1.85)
+			(end 13.75 -1.85)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "789c0960-057a-4b33-aaf9-af0a4e95b8fc")
+		)
+		(fp_line
+			(start 0 0)
+			(end 1.85 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8324b7de-2f20-4aa6-9345-9df15913c8dd")
+		)
+		(fp_line
+			(start 1.85 -1.6)
+			(end 1.85 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "607c9ebb-b6ed-4c60-9c04-95ef9206a423")
+		)
+		(fp_line
+			(start 1.85 1.6)
+			(end 10.85 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b0569232-fdec-41c4-b92e-e5f51c4c06d0")
+		)
+		(fp_line
+			(start 10.85 -1.6)
+			(end 1.85 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a3266829-3516-4a0c-854c-2184ab97fe67")
+		)
+		(fp_line
+			(start 10.85 1.6)
+			(end 10.85 -1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "08d065e1-41c1-4bba-893f-0a27ab0239d1")
+		)
+		(fp_line
+			(start 12.7 0)
+			(end 10.85 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "16340001-740f-45e5-b806-21f3be1b3408")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 6.35 0 0)
+			(layer "F.Fab")
+			(uuid "bd3c68e6-c58e-4c20-84d1-2bdc6ea9c590")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 68 "/A")
+			(pintype "passive")
+			(uuid "b1caeecc-e1f2-400c-a56c-8cf3e9559f29")
+		)
+		(pad "2" thru_hole oval
+			(at 12.7 0)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 19 "Net-(Q1-C)")
+			(pintype "passive")
+			(uuid "d67734cb-e412-46bf-af85-f92dc453e0ad")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "174fc427-7506-4c13-8a2a-f794ede5a5c5")
-		(at 102.2 38.65)
+		(at 257.8 37.7)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D135"
@@ -3665,7 +3948,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "317fe77e-30b5-4b88-93b3-343e34dac84e")
@@ -3685,7 +3968,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "17a187ba-dbec-41ad-9fae-9be7b42b105b")
-		(at 66.8 77.5)
+		(at 146.725 70.6)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D64"
@@ -3907,7 +4190,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "c2f61183-3e1e-4d44-9c03-de60e1a66fdd")
@@ -3927,7 +4210,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "18740f58-df31-47ea-af0a-55436439a5e8")
-		(at 66.8 44.2)
+		(at 147.225 37)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D58"
@@ -4149,7 +4432,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "1722e699-47c3-4a94-9577-aa5361916d44")
@@ -4169,7 +4452,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "18c45d83-b408-488b-8a86-0602ab065cbd")
-		(at 102.2 27.55)
+		(at 257.8 26.6)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D133"
@@ -4391,7 +4674,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "67c7e662-aa03-414a-9c38-81822e16fa89")
@@ -4408,10 +4691,285 @@
 			)
 		)
 	)
+	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(layer "F.Cu")
+		(uuid "1967a813-5044-4b13-9d5b-163011c265b5")
+		(at 169.19 142.2)
+		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
+		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
+		(property "Reference" "R32"
+			(at 3.81 -1.92 0)
+			(layer "F.SilkS")
+			(uuid "221836f2-b7e1-453c-b824-4bd57bc9dcb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 3.81 1.92 0)
+			(layer "F.Fab")
+			(uuid "b206a073-648e-46df-a3e6-7d1cc42cf8ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28b68491-d5e7-4462-b080-ba919541bf9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d9e38b9-209b-4769-8c82-db22bfe0cdc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65f28ac6-640f-42ec-80c8-94bedcacee58")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/e32a8343-cb7c-4dd6-bea1-a90453b5a703")
+		(sheetname "Root")
+		(sheetfile "digital clock.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 0.94 0)
+			(end 1.89 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d5d4efe6-4ec3-4c1a-b7a5-3c0a9d739887")
+		)
+		(fp_line
+			(start 1.89 -0.92)
+			(end 1.89 0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e213e992-2062-40b2-b976-efe8fd1a22c8")
+		)
+		(fp_line
+			(start 1.89 0.92)
+			(end 5.73 0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4435e177-dccf-4964-88dc-0039fcce283a")
+		)
+		(fp_line
+			(start 5.73 -0.92)
+			(end 1.89 -0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f68a15d4-2b41-4b58-91d7-77dc98ffdcd8")
+		)
+		(fp_line
+			(start 5.73 0.92)
+			(end 5.73 -0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e0f920f1-a969-4f55-a949-49a5809c2ff2")
+		)
+		(fp_line
+			(start 6.68 0)
+			(end 5.73 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "727eb640-99f4-4068-a6e7-77e4e378c9ef")
+		)
+		(fp_line
+			(start -0.95 -1.05)
+			(end -0.95 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "62051fbd-96f9-4ebb-88cd-b0827d39dbbb")
+		)
+		(fp_line
+			(start -0.95 1.05)
+			(end 8.57 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "02333ea5-c4ab-4d10-ba7c-29a9110973a5")
+		)
+		(fp_line
+			(start 8.57 -1.05)
+			(end -0.95 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8eaab234-8699-42ee-83a6-0c81fff62e6c")
+		)
+		(fp_line
+			(start 8.57 1.05)
+			(end 8.57 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "858a3f08-a1b8-488a-b9f2-e4d563dd30d9")
+		)
+		(fp_line
+			(start 0 0)
+			(end 2.01 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5ca70708-abaf-47d7-b91f-a879949b9beb")
+		)
+		(fp_line
+			(start 2.01 -0.8)
+			(end 2.01 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c356354f-7d90-4ade-be85-6086d3ee44ac")
+		)
+		(fp_line
+			(start 2.01 0.8)
+			(end 5.61 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "efedab87-36be-45af-8fc3-2a7339d242be")
+		)
+		(fp_line
+			(start 5.61 -0.8)
+			(end 2.01 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eab4511e-ab96-428a-a632-f5fc831ca06a")
+		)
+		(fp_line
+			(start 5.61 0.8)
+			(end 5.61 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9b64c63c-0f8c-40e8-a18f-4ee3a547d2fe")
+		)
+		(fp_line
+			(start 7.62 0)
+			(end 5.61 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "325abc5e-0fa6-49ff-b333-d92e9da888a8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 3.81 0 0)
+			(layer "F.Fab")
+			(uuid "f7c849e9-27c3-4ae4-b2ab-e2bcd83abad6")
+			(effects
+				(font
+					(size 0.72 0.72)
+					(thickness 0.108)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 67 "/E")
+			(pintype "passive")
+			(uuid "5f163767-0dad-498c-98a8-86ea14f2e057")
+		)
+		(pad "2" thru_hole oval
+			(at 7.62 0)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 30 "Net-(Q12-C)")
+			(pintype "passive")
+			(uuid "9cfdf255-4f2d-4569-9c51-977a9a2df5f4")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "19739b1c-1885-4c65-98c2-2c1bc174f1d1")
-		(at 60.9 94.15)
+		(at 147 25)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D54"
@@ -4633,7 +5191,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "5492073d-a636-4cdc-9315-8f8509aee38d")
@@ -4653,7 +5211,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "198b8a87-e1fc-44dd-8b3f-0fac8a49a577")
-		(at 108.41 70.6)
+		(at 264.01 69.65)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q7"
@@ -4885,7 +5443,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "19ebe10a-3095-47ff-a6af-cb1d171f8421")
-		(at 78.6 60.85)
+		(at 30.04 33)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D87"
@@ -5107,7 +5665,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 66 "/F")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "d088bf84-e37a-40ca-ab81-045a368b2e21")
@@ -5127,7 +5685,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "1c8a66aa-f4f5-4799-8345-41ae3888ffad")
-		(at 84.5 77.5)
+		(at 50.04 49.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D103"
@@ -5349,7 +5907,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "9b4865c0-33ce-4745-b59a-aa25eb2be242")
@@ -5644,7 +6202,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "1e5c5499-504f-4563-b699-8b98b086987b")
-		(at 78.6 27.55)
+		(at 98.5 56.45)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D81"
@@ -5866,7 +6424,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "45ab1194-29bc-4426-9fc9-64d3ae96798f")
@@ -5886,7 +6444,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "1fbff33f-1dff-48b4-ab89-881980bfcf9b")
-		(at 84.5 60.85)
+		(at 44.765 49.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D100"
@@ -6108,7 +6666,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "2f1afd0a-bef5-41d1-914b-109d2098aa23")
@@ -6128,7 +6686,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "20e91d27-a744-4c36-b98b-92be3b2445f8")
-		(at 84.5 88.6)
+		(at 54.765 28.95)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D105"
@@ -6350,7 +6908,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "576939e4-1d6d-48d8-83d3-93a468839fb3")
@@ -6370,7 +6928,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "210acf44-a9be-4e87-8bd4-85fe59de58b0")
-		(at 55 27.55)
+		(at 69.275 26)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D23"
@@ -6592,7 +7150,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 66 "/F")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "9100bf57-bc7d-49f7-8f83-2ee4bdd89eae")
@@ -6609,10 +7167,285 @@
 			)
 		)
 	)
+	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(layer "F.Cu")
+		(uuid "26aa0594-abfe-443f-86bd-b1be6cb2f1bf")
+		(at 169.29 131.4)
+		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
+		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
+		(property "Reference" "R29"
+			(at 5.08 -2.37 0)
+			(layer "F.SilkS")
+			(uuid "ab549aa7-890a-4ed8-aca6-ad8893b54a08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 5.08 2.37 0)
+			(layer "F.Fab")
+			(uuid "305d007b-f6bb-4d20-9da3-06c9d128aefa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4336cd05-3085-4124-affb-2adf4c302896")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faa5c64e-5f09-4947-b788-c734c040e595")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57e01675-9037-4db5-b1b4-8a9ca7465ce1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/f49bad97-60a0-4115-aad4-bcb07d404d26")
+		(sheetname "Root")
+		(sheetfile "digital clock.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 1.04 0)
+			(end 1.81 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6ac2a521-dc44-4bed-85c3-4a08dc77ad81")
+		)
+		(fp_line
+			(start 1.81 -1.37)
+			(end 1.81 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "77f1460d-0c86-425f-867b-3ebd87244ce0")
+		)
+		(fp_line
+			(start 1.81 1.37)
+			(end 8.35 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dcc5678f-f944-4d67-b9b9-0ab6b845881c")
+		)
+		(fp_line
+			(start 8.35 -1.37)
+			(end 1.81 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "56d88de8-61a1-421a-93d9-911f73bda214")
+		)
+		(fp_line
+			(start 8.35 1.37)
+			(end 8.35 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b79e966d-219d-4b35-9f67-5c0f1217945b")
+		)
+		(fp_line
+			(start 9.12 0)
+			(end 8.35 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7bfcfe09-c923-4ee9-a4ad-d958bcb2cd66")
+		)
+		(fp_line
+			(start -1.05 -1.5)
+			(end -1.05 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f5f2c714-2ca5-46b2-8f03-c6043e50fa2b")
+		)
+		(fp_line
+			(start -1.05 1.5)
+			(end 11.21 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4ca06411-c8b0-462d-b520-51285408fd97")
+		)
+		(fp_line
+			(start 11.21 -1.5)
+			(end -1.05 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "956f88d1-7921-4032-b1ac-2df840e429fc")
+		)
+		(fp_line
+			(start 11.21 1.5)
+			(end 11.21 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "5155f954-1dc6-46cc-aca0-a49396300caf")
+		)
+		(fp_line
+			(start 0 0)
+			(end 1.93 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "495149ac-730d-429f-b28a-7b0f45b23dbb")
+		)
+		(fp_line
+			(start 1.93 -1.25)
+			(end 1.93 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "773818db-ea74-42b1-ad7c-6119877ab121")
+		)
+		(fp_line
+			(start 1.93 1.25)
+			(end 8.23 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ecbb5132-e937-4fb0-8a14-30c64eb82b31")
+		)
+		(fp_line
+			(start 8.23 -1.25)
+			(end 1.93 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8e778fcf-b646-49da-99fa-8dc134bd200a")
+		)
+		(fp_line
+			(start 8.23 1.25)
+			(end 8.23 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7d72984d-5177-4a03-8534-1fe8efc79d6b")
+		)
+		(fp_line
+			(start 10.16 0)
+			(end 8.23 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "427a2f58-d1d1-4e80-a84f-010060c4a4cc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 5.08 0 0)
+			(layer "F.Fab")
+			(uuid "41b1889d-30f1-4b90-9491-4c242d3c88c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 18 "/Vcc")
+			(pintype "passive")
+			(uuid "7222e436-56f3-4cb0-bc20-b6f683512835")
+		)
+		(pad "2" thru_hole oval
+			(at 10.16 0)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 73 "/GPIO")
+			(pintype "passive")
+			(uuid "38bec52e-bc59-4223-8116-bb2509361c32")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "2733bb47-f269-43e0-837c-ad235e41508e")
-		(at 96.3 33.1)
+		(at 251.9 32.15)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D121"
@@ -6834,7 +7667,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 67 "/E")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "595f2fa2-1e39-45b5-a27a-7013670cb1c6")
@@ -6854,7 +7687,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "29935f47-642f-49c4-a656-a6245461af13")
-		(at 66.8 38.65)
+		(at 69 68.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D57"
@@ -7076,7 +7909,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 67 "/E")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "902696b2-defe-41d6-a26e-b5fdf22a8503")
@@ -8512,7 +9345,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "2e3f74e3-adf7-442e-a206-11c674a4fb6c")
-		(at 107.9 48.4)
+		(at 263.5 47.45)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R13"
@@ -8758,7 +9591,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 73 "/GPIO")
 			(pintype "passive")
 			(uuid "fd3971f7-c04b-411c-9513-7566630bd41c")
 		)
@@ -8787,7 +9620,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "2e8af9eb-358a-408b-8d5e-a6deb73571c2")
-		(at 129.04 26.35)
+		(at 284.64 25.4)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R22"
@@ -9062,7 +9895,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "339000d0-1f80-4e75-a2a8-9bcbf89a135b")
-		(at 114.92 53.23)
+		(at 270.52 52.28)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q8"
@@ -9294,7 +10127,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "34f417be-1d85-485a-9425-9831eed5458b")
-		(at 72.7 33.1)
+		(at 80.5 50)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D69"
@@ -9516,7 +10349,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "dbe1d768-3784-4f62-9344-2f7daf5b62d4")
@@ -9536,7 +10369,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "3846d3b2-743a-42ba-ab7c-57f472eb67d6")
-		(at 72.7 66.4)
+		(at 92.5 50)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D75"
@@ -9758,7 +10591,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "d4d216f5-34a5-443b-aeb8-5d756768a32b")
@@ -9778,7 +10611,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "39681ad8-2301-41a6-9a0a-79968acb3de0")
-		(at 78.6 33.1)
+		(at 98.5 62.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D82"
@@ -10000,7 +10833,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "bbf9ddff-defb-4663-84f9-16ce2916a0c1")
@@ -10020,7 +10853,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "3adebbc0-64b7-4d89-83d6-55434ccf0e4c")
-		(at 114.92 70.6)
+		(at 270.52 69.65)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q11"
@@ -10252,7 +11085,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "40f7d83e-b36f-4b43-be4d-0a8a270e19d4")
-		(at 78.6 55.3)
+		(at 30.04 38)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D86"
@@ -10474,7 +11307,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 66 "/F")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a4400526-fca0-4012-8f57-11e72e46e296")
@@ -10494,7 +11327,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "421edfa6-c92c-4186-8d77-97e4e869e11d")
-		(at 107.9 42.1)
+		(at 263.5 41.15)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R11"
@@ -10740,7 +11573,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 73 "/GPIO")
 			(pintype "passive")
 			(uuid "cb9c6384-e5b7-42d1-b2a4-d96bb7db305b")
 		)
@@ -10769,7 +11602,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "4346fb5a-2174-4367-847c-2138714d4c38")
-		(at 96.3 66.4)
+		(at 251.9 65.45)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D127"
@@ -10991,7 +11824,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ce9ae51b-1556-4eca-9a0f-294825ac33c8")
@@ -11011,7 +11844,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "45dc4bf2-88aa-4f46-86ba-59fc5cbd118e")
-		(at 118.47 32.65)
+		(at 274.07 31.7)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R16"
@@ -11257,7 +12090,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 73 "/GPIO")
 			(pintype "passive")
 			(uuid "85d9a541-035f-4ee9-bf28-5d1a0c43e2eb")
 		)
@@ -11267,7 +12100,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "Net-(Q12-C)")
+			(net 18 "/Vcc")
 			(pintype "passive")
 			(uuid "1b8a452b-9d48-47c0-9bbd-0ee053a9d1d5")
 		)
@@ -11286,7 +12119,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "461b4b04-b0b2-4da8-a373-436a161cd1f2")
-		(at 102.2 83.05)
+		(at 182.5 67.65)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D143"
@@ -11508,7 +12341,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a5dfbbdc-15dd-414b-81b0-a1661b810ee0")
@@ -11528,7 +12361,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "476262d1-8095-434d-8240-f0bcf5480a1c")
-		(at 55 66.4)
+		(at 116.225 43.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D36"
@@ -11750,7 +12583,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 66 "/F")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "58a40bb1-595d-4fe9-8120-a26cb0ab0234")
@@ -11770,7 +12603,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "48b437e8-9d78-48cd-8a54-6c7bdaa29c7e")
-		(at 107.9 29.5)
+		(at 263.5 28.55)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R7"
@@ -12016,7 +12849,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pintype "passive")
 			(uuid "2c740f7b-67cd-4770-a816-1c3cdf23d816")
 		)
@@ -12045,7 +12878,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "490df1e1-7d5c-48ed-bba9-3f06ff7b1a5b")
-		(at 96.3 71.95)
+		(at 251.9 71)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D128"
@@ -12267,7 +13100,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 68 "/A")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "2952c4f8-6233-452a-a3f3-e83203dbd240")
@@ -12724,7 +13557,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "49d1d38c-71a4-440d-a209-d14930f593cc")
-		(at 55 55.3)
+		(at 116.225 31.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D34"
@@ -12946,7 +13779,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 66 "/F")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "fe5d7168-9f6e-4ab3-b91e-bdbfaa7cdf83")
@@ -12966,7 +13799,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "4adbcd9b-6621-4982-8373-bfbb5aa516c5")
-		(at 72.7 77.5)
+		(at 97.735 26)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D77"
@@ -13188,7 +14021,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "06054d2a-92a6-4374-926c-a0b8966e69d1")
@@ -13208,7 +14041,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "4c6cae24-7e37-41c4-b101-5dfccdd080b1")
-		(at 102.2 55.3)
+		(at 182.5 39.9)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D138"
@@ -13430,7 +14263,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "f4c74de6-e58b-4c80-b4ef-731b0ab2b9e6")
@@ -13450,7 +14283,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "4d5423c4-85bb-4c5a-abfc-3ae8df780b3c")
-		(at 60.9 77.5)
+		(at 140.96 49)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D51"
@@ -13672,7 +14505,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "7c22f2b4-f774-4b82-ab67-d3fde2915b8c")
@@ -13692,11 +14525,11 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "4de41695-5a73-4400-8337-74618bae1f18")
-		(at 66.8 88.6)
+		(at 74.5 50)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D66"
-			(at 1.27 -2.96 0)
+			(at 1.275 -3 0)
 			(layer "F.SilkS")
 			(uuid "f69f1aff-7119-4945-99d4-452dab55314e")
 			(effects
@@ -13914,7 +14747,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "526f1547-1eb5-43a2-a311-489f6d23c0f0")
@@ -13934,7 +14767,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "4f13f2f6-1afb-4e30-b21a-4dcc370d4148")
-		(at 66.8 49.75)
+		(at 69 74.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D59"
@@ -14156,7 +14989,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 67 "/E")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "f99be161-c5f9-499f-a727-333bc67ef26d")
@@ -14176,7 +15009,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "4f506dc8-c503-4b2a-8c2c-7f75b08b2960")
-		(at 90.4 77.5)
+		(at 246 76.55)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D116"
@@ -15559,7 +16392,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "5481d9d6-67cc-4c5d-b7da-1137b8e68a4e")
-		(at 60.9 66.4)
+		(at 135.235 77.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D49"
@@ -15781,7 +16614,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "d2f193c6-2de4-4e61-91b5-08b8206b2dc0")
@@ -15801,7 +16634,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "575f5884-8e5e-46ce-afd6-f6b414f48823")
-		(at 90.4 94.15)
+		(at 246 93.2)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D119"
@@ -16023,7 +16856,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 66 "/F")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "339f1b8a-27ed-4c2a-b990-6d46676ccaf1")
@@ -16043,7 +16876,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "5874da83-e46f-4aec-8d33-8c6d470b83ca")
-		(at 121.43 53.23)
+		(at 277.03 52.28)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q12"
@@ -16275,7 +17108,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "58c695e7-8bab-4e8e-b747-b50100b106f8")
-		(at 55 71.95)
+		(at 116.725 54)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D37"
@@ -16497,7 +17330,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 67 "/E")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "31bcee07-6c21-403d-b25b-9edd622e74e2")
@@ -17071,7 +17904,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "5d15a8e9-2f5b-4cc3-84a4-4693997e1b9d")
-		(at 107.9 35.8)
+		(at 263.5 34.85)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R9"
@@ -17317,7 +18150,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 73 "/GPIO")
 			(pintype "passive")
 			(uuid "e1a1a380-a3f0-4002-8ee1-758b51dc3e29")
 		)
@@ -17346,7 +18179,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "5e501825-d7f2-45e7-84bc-13f74a1598ec")
-		(at 96.3 55.3)
+		(at 251.9 54.35)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D125"
@@ -17568,7 +18401,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 68 "/A")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "f3014a1f-37b2-4ca5-b7fb-4e1a7f0b5508")
@@ -17588,7 +18421,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "5f904d89-6fdd-4d68-8a9b-e489175bbdfb")
-		(at 78.6 77.5)
+		(at 29.765 59.45)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D90"
@@ -17810,7 +18643,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 67 "/E")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "5c121b8b-e79c-48e6-826a-a7fa61197a21")
@@ -17830,7 +18663,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "60875693-e37a-4435-ae24-6b33a68ebb02")
-		(at 102.2 44.2)
+		(at 182.5 28.8)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D136"
@@ -18052,7 +18885,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "8a0a3425-7c67-4e65-b78c-9e0d8d1eec8c")
@@ -18072,7 +18905,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "60c04f70-79f3-4627-994e-cab1c8140617")
-		(at 55 33.1)
+		(at 69.275 32)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D25"
@@ -18294,7 +19127,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 66 "/F")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "3147d1f0-aa97-4b4b-b0d8-77023aa7fa0d")
@@ -18673,7 +19506,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "6269f474-c502-4c90-b5e5-7cdf58621b1d")
-		(at 102.2 66.4)
+		(at 182.5 51)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D140"
@@ -18895,7 +19728,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "e386e2f2-3b56-47a6-b101-332f07177939")
@@ -18915,7 +19748,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "690dfa10-6a9d-4178-9678-58ea964f0509")
-		(at 66.8 60.85)
+		(at 146.725 53.95)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D61"
@@ -19137,7 +19970,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a26938e0-7f3b-4dc2-9374-0c415281ae29")
@@ -19157,7 +19990,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "69c6578f-48f6-4e02-85f2-fdcdc0d15ced")
-		(at 55 60.85)
+		(at 116.225 37.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D35"
@@ -19379,7 +20212,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 66 "/F")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "9e565777-3a0b-4076-a597-e3a225f890ec")
@@ -19399,7 +20232,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "6aa3b76c-603d-471d-9a1e-7f04d54bff2d")
-		(at 108.41 53.23)
+		(at 264.01 52.28)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q1"
@@ -19464,7 +20297,7 @@
 			)
 		)
 		(property ki_fp_filters "TO?92*")
-		(path "/6be49d79-4a3f-42eb-9d3a-2363562958f7")
+		(path "/52a54a97-035d-481c-b041-337395a2c49c")
 		(sheetname "Root")
 		(sheetfile "digital clock.kicad_sch")
 		(attr through_hole)
@@ -19631,7 +20464,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "6d075dd2-0a31-4682-988e-3138b9cfe21b")
-		(at 60.9 71.95)
+		(at 141 19.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D50"
@@ -19853,7 +20686,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 68 "/A")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "3b9f4114-6d3d-45a3-aced-58740d3fef58")
@@ -20148,11 +20981,11 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "6e466db2-d73c-463a-84db-8790e5905b31")
-		(at 55 83.05)
+		(at 116.725 66)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D39"
-			(at 1.27 -2.96 0)
+			(at 1.54 -3 0)
 			(layer "F.SilkS")
 			(uuid "a0631a8c-06b2-4281-b5d7-5ebd3fdecd7f")
 			(effects
@@ -20370,7 +21203,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 67 "/E")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "22554272-2149-4aab-b735-48cb7b42c672")
@@ -20390,7 +21223,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "6edece16-c08e-468f-98bc-9a66f266cb80")
-		(at 72.7 83.05)
+		(at 98 32)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D78"
@@ -20612,7 +21445,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "bce5b29d-c77d-4de8-a94c-2c23389a4c19")
@@ -20632,7 +21465,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "6f06fc4b-f251-4dff-9bac-3844cd1621e9")
-		(at 55 77.5)
+		(at 116.725 60)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D38"
@@ -20854,7 +21687,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 67 "/E")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "54d8e7d5-2a66-4dfa-a635-bd64c0c15058")
@@ -20874,7 +21707,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7042e93a-9514-46f2-8da2-762cf29735fd")
-		(at 129.04 42.1)
+		(at 284.64 41.15)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R27"
@@ -21149,7 +21982,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "70b924f7-6c2a-4cf9-9677-f85f40e018d1")
-		(at 66.8 83.05)
+		(at 74.5 21)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D65"
@@ -21371,7 +22204,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 68 "/A")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "021b9281-ec5d-450e-bf25-4a143189c68d")
@@ -21390,8 +22223,283 @@
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
+		(uuid "728155d4-d046-456a-9d57-119643b8c234")
+		(at 169.19 145.35)
+		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
+		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
+		(property "Reference" "R33"
+			(at 3.81 -1.92 0)
+			(layer "F.SilkS")
+			(uuid "f235c5a6-cd14-40e5-bee6-61ec4227a596")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 3.81 1.92 0)
+			(layer "F.Fab")
+			(uuid "85222ce4-6589-48dd-9864-30c60f89c21a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d71490a8-f2d1-45bc-a00b-12224599410d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2ac2f77-ce35-4a1f-81c5-7aff455f586e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74a629c3-5f0b-4f41-9aba-5d0b20621db8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/984d50bb-cbb6-4afb-8337-c35212271ea9")
+		(sheetname "Root")
+		(sheetfile "digital clock.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 0.94 0)
+			(end 1.89 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6b857504-2f12-44a2-bf19-49e035b87e81")
+		)
+		(fp_line
+			(start 1.89 -0.92)
+			(end 1.89 0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8fc1f4cb-551a-4de6-9701-5c148c7f1cad")
+		)
+		(fp_line
+			(start 1.89 0.92)
+			(end 5.73 0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6a40dd62-f295-42e7-8f43-d625d3184884")
+		)
+		(fp_line
+			(start 5.73 -0.92)
+			(end 1.89 -0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0bbde73e-fb80-41a6-9b2d-41eb22d602e4")
+		)
+		(fp_line
+			(start 5.73 0.92)
+			(end 5.73 -0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c55e4c8a-fa57-411d-bc4c-faf5ee1e895f")
+		)
+		(fp_line
+			(start 6.68 0)
+			(end 5.73 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8f156e98-f686-433e-8288-fefda0413aee")
+		)
+		(fp_line
+			(start -0.95 -1.05)
+			(end -0.95 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dbed4c15-f0db-4c37-a734-321f8193ee1e")
+		)
+		(fp_line
+			(start -0.95 1.05)
+			(end 8.57 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "260af68c-b2ce-48fb-8ea9-634ac5f215dd")
+		)
+		(fp_line
+			(start 8.57 -1.05)
+			(end -0.95 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ac572192-54f6-4762-9a29-d7f3ced9f0b6")
+		)
+		(fp_line
+			(start 8.57 1.05)
+			(end 8.57 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "941b6847-8368-4d34-8f26-640690580c04")
+		)
+		(fp_line
+			(start 0 0)
+			(end 2.01 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fde7a767-887c-43b6-91c8-480bfb4ced7d")
+		)
+		(fp_line
+			(start 2.01 -0.8)
+			(end 2.01 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f87653c3-e063-4564-9f4a-5a869594e5a1")
+		)
+		(fp_line
+			(start 2.01 0.8)
+			(end 5.61 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9f7203a7-c526-40b8-9261-17f1f6848c99")
+		)
+		(fp_line
+			(start 5.61 -0.8)
+			(end 2.01 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c1ba7557-f07c-47fc-906b-548583257029")
+		)
+		(fp_line
+			(start 5.61 0.8)
+			(end 5.61 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b944fa64-735f-4387-80a0-e241c665f65e")
+		)
+		(fp_line
+			(start 7.62 0)
+			(end 5.61 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2e8881f2-cfbf-4d8b-aa1e-d11c6682dd3a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 3.81 0 0)
+			(layer "F.Fab")
+			(uuid "d264d949-1d4a-40bc-8a34-60cbff543d0a")
+			(effects
+				(font
+					(size 0.72 0.72)
+					(thickness 0.108)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 73 "/GPIO")
+			(pintype "passive")
+			(uuid "b634441d-ddb1-402c-8780-f296d13592c4")
+		)
+		(pad "2" thru_hole oval
+			(at 7.62 0)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 18 "/Vcc")
+			(pintype "passive")
+			(uuid "dde4ef0e-04d6-4d7c-a253-5dd9aaeb5586")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(layer "F.Cu")
 		(uuid "735ff603-f76e-4c6e-9d5b-100799ebed79")
-		(at 118.47 42.1)
+		(at 274.07 41.15)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R19"
@@ -21637,7 +22745,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 73 "/GPIO")
 			(pintype "passive")
 			(uuid "b4f10233-5d68-4d27-babe-6ab5504b211a")
 		)
@@ -21666,7 +22774,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "74cae7b8-3641-4d78-a4cb-6e08acbd9318")
-		(at 60.9 49.75)
+		(at 128.96 77.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D46"
@@ -21888,7 +22996,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "baef57ac-f8b6-474f-b75c-c059c590b3cc")
@@ -21908,7 +23016,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "7590a557-891b-46bf-84be-71be35e06286")
-		(at 90.4 88.6)
+		(at 246 87.65)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D118"
@@ -22130,7 +23238,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 66 "/F")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "3a2eb39e-b663-492f-85e7-63a7512c45eb")
@@ -22150,7 +23258,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "76e4c35e-d66d-46ff-a5aa-61f02d49dc62")
-		(at 55 88.6)
+		(at 116.725 72)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D40"
@@ -22372,7 +23480,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 67 "/E")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "1740b0a1-d598-4a88-b96f-0efb1be9521e")
@@ -22392,7 +23500,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "790ae7ac-6b8c-419c-83b8-a51f523055fd")
-		(at 66.8 71.95)
+		(at 146.725 65.05)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D63"
@@ -22614,7 +23722,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "e7f029be-a2d5-4045-90c4-079e99a1f578")
@@ -22634,7 +23742,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "794ac601-efe4-4af9-a67a-16e773aee36e")
-		(at 55 44.2)
+		(at 69 44)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D32"
@@ -22856,7 +23964,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 66 "/F")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "580a065d-942c-4aca-ac7f-24efbc2bb0e0")
@@ -22876,7 +23984,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "79c15c2f-873a-4024-b101-2613d2279c79")
-		(at 78.6 49.75)
+		(at 30.04 43)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D85"
@@ -23098,7 +24206,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 66 "/F")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "57644711-cce5-4a51-b10e-20d95f4a8d54")
@@ -23118,7 +24226,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "7a7e3849-f07e-4eee-8fc1-8782f78e949a")
-		(at 78.6 66.4)
+		(at 29.765 28)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D88"
@@ -23340,7 +24448,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 66 "/F")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "9fd6fa8d-87ea-464e-8ec6-ba1e54f020b3")
@@ -23360,7 +24468,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "7d2dca78-426c-4cb4-9694-68ef0c629f35")
-		(at 72.7 44.2)
+		(at 86.5 21)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D71"
@@ -23582,7 +24690,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 68 "/A")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "97dca20f-8b45-42b7-95b3-6c1822d5a648")
@@ -23602,7 +24710,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "806dbc76-e201-4621-a938-65e2fed8e0dc")
-		(at 90.4 71.95)
+		(at 246 71)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D115"
@@ -23844,7 +24952,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "82d713d3-6a38-46dc-9fe6-24c8ff79e875")
-		(at 114.92 64.81)
+		(at 270.52 63.86)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q10"
@@ -24076,7 +25184,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "89e153ca-2fed-4804-81f6-9c83b80e8627")
-		(at 118.47 35.8)
+		(at 274.07 34.85)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R17"
@@ -24322,7 +25430,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 73 "/GPIO")
 			(pintype "passive")
 			(uuid "8b3b50d0-682a-4c2a-9d54-a639cff2ec65")
 		)
@@ -24351,7 +25459,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "8aedeb0f-f3b4-42d5-bb51-6eca68f28903")
-		(at 60.9 60.85)
+		(at 134.735 49)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D48"
@@ -24573,7 +25681,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "05aaf6f6-2a13-4275-81f3-b4f4c2b2d745")
@@ -24593,7 +25701,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "8d97723f-553a-41b3-b0d7-c26eec8294dd")
-		(at 84.5 83.05)
+		(at 51 76)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D104"
@@ -24815,7 +25923,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "e9cc0975-565d-48a3-b410-5659d6d42bce")
@@ -24835,7 +25943,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "8e2a6d90-6cb7-4342-a2f8-4752685e1b93")
-		(at 121.43 59.02)
+		(at 277.03 58.07)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q13"
@@ -25067,7 +26175,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8f950e59-5f15-4f0d-8468-750562bc2455")
-		(at 118.47 26.35)
+		(at 274.07 25.4)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R14"
@@ -25132,7 +26240,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/db3d3661-e9bb-48c0-8bed-38c436f98c62")
+		(path "/e9a457d3-4384-42ec-be76-7e64401c54e3")
 		(sheetname "Root")
 		(sheetfile "digital clock.kicad_sch")
 		(attr through_hole)
@@ -25313,7 +26421,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pintype "passive")
 			(uuid "f38a24b5-4652-4388-a4de-79937b847286")
 		)
@@ -26483,7 +27591,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "951bb45f-c9c6-45db-9472-1e53a45fa38d")
-		(at 107.9 32.65)
+		(at 263.5 31.7)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R8"
@@ -26548,7 +27656,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/094da374-948d-4a4f-86fc-e9c3cfeaa027")
+		(path "/c6d1a63f-74b5-4491-a07d-92de119c0d1c")
 		(sheetname "Root")
 		(sheetfile "digital clock.kicad_sch")
 		(attr through_hole)
@@ -26729,7 +27837,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 73 "/GPIO")
 			(pintype "passive")
 			(uuid "f151e5b4-78c9-42be-9c15-5dc95edbee90")
 		)
@@ -26739,7 +27847,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 19 "Net-(Q1-C)")
+			(net 18 "/Vcc")
 			(pintype "passive")
 			(uuid "362c6fe9-9818-47cf-81b9-40fdce42e10a")
 		)
@@ -26758,7 +27866,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "960ebb65-6c4f-4106-849e-0c9144582b9c")
-		(at 129.04 29.5)
+		(at 284.64 28.55)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R23"
@@ -27033,11 +28141,11 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "96976908-c378-4feb-accb-5bd3da3b47c4")
-		(at 84.5 66.4)
+		(at 45 76)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D101"
-			(at 1.27 -2.96 0)
+			(at 0.8 -2.55 0)
 			(layer "F.SilkS")
 			(uuid "54018102-7aae-4e79-abf8-b80325e46f85")
 			(effects
@@ -27255,7 +28363,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "6d986da8-da01-484b-97a4-fb56f4c75180")
@@ -27275,7 +28383,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "972b475a-72c4-46b2-aeba-09957aa974d4")
-		(at 96.3 94.15)
+		(at 251.9 93.2)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D132"
@@ -27497,7 +28605,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "990fa448-2e69-4a05-81c2-83c3f84acea9")
@@ -27517,7 +28625,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "99234713-9d2b-4361-9c5c-1f921ac14cac")
-		(at 60.9 55.3)
+		(at 134.725 19.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D47"
@@ -27739,7 +28847,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 68 "/A")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "aeef5c45-d786-464b-a314-855bb13a0ae9")
@@ -27759,7 +28867,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "9c0bdb1f-4926-4545-b284-f746122b2ecb")
-		(at 96.3 60.85)
+		(at 251.9 59.9)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D126"
@@ -27981,7 +29089,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "d27b5683-ceef-4805-b307-4722e2b13b30")
@@ -28001,7 +29109,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9d5500af-d22e-4201-ae5a-319b11931ccf")
-		(at 129.04 38.95)
+		(at 284.64 38)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R26"
@@ -28276,7 +29384,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "9de45af2-e9ee-480d-90b0-4900260401e1")
-		(at 96.3 83.05)
+		(at 251.9 82.1)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D130"
@@ -28498,7 +29606,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "7ec0cb8b-1340-4b87-b9ca-79992b6df95c")
@@ -28793,7 +29901,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "9e87da0d-d271-44c4-b408-7a7caaa63565")
-		(at 78.6 94.15)
+		(at 34.54 24)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D93"
@@ -29015,7 +30123,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 68 "/A")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "54971d4f-0704-404b-98c0-2b358d8718ef")
@@ -29035,7 +30143,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "9f7c6ca5-9c94-4952-adb7-9808775a10b0")
-		(at 90.4 83.05)
+		(at 246 82.1)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D117"
@@ -29257,7 +30365,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 66 "/F")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "a79a38f3-b97b-45d6-9191-9677c8f21a7c")
@@ -29277,7 +30385,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "a2fb6579-97e5-43a4-8cb5-e455f5a9700b")
-		(at 66.8 94.15)
+		(at 75 80.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D67"
@@ -29499,7 +30607,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "1554d09f-109a-4281-bdd3-7af4892cf0f3")
@@ -29519,7 +30627,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "a36b0087-19d0-4e0b-b972-364271c70fe8")
-		(at 90.4 55.3)
+		(at 55 70.55)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D112"
@@ -29741,7 +30849,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "0cda694c-ca0c-459f-a42a-9cb5361d9bb4")
@@ -29761,7 +30869,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "a3e7fbf6-a088-4f12-94b9-0b22b724353f")
-		(at 66.8 55.3)
+		(at 147.225 43)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D60"
@@ -29983,7 +31091,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "df0265f4-7fa3-4252-b27f-97918df852b3")
@@ -30003,7 +31111,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a4a41283-27d5-4cd1-991e-6d0f6a19914b")
-		(at 118.47 45.25)
+		(at 274.07 44.3)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R20"
@@ -30249,7 +31357,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pintype "passive")
 			(uuid "2db07f09-fe15-4d2e-b7d5-a613be7873f3")
 		)
@@ -30278,7 +31386,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "a4da6d34-dc67-4a49-9f0b-21d246166092")
-		(at 108.41 59.02)
+		(at 264.01 58.07)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q2"
@@ -30507,10 +31615,285 @@
 			)
 		)
 	)
+	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(layer "F.Cu")
+		(uuid "a6359bca-d0e1-4227-81a3-e40018321e43")
+		(at 169.29 135.45)
+		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
+		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
+		(property "Reference" "R30"
+			(at 5.08 -2.37 0)
+			(layer "F.SilkS")
+			(uuid "922dd1fd-112e-4d95-8a93-6e1ce8d42b39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 5.08 2.37 0)
+			(layer "F.Fab")
+			(uuid "04c40616-26d2-4c49-b98e-9d1372086a73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9fb935e-4cb4-446d-b034-0bf75e52ab18")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec6a24fe-bbb6-468d-a9a6-648ac897b464")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "188922ff-0551-4bb3-b0a4-8b1a8046aa94")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/abdd80fb-5631-43c7-8bdc-f7f65830eb66")
+		(sheetname "Root")
+		(sheetfile "digital clock.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 1.04 0)
+			(end 1.81 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "94c565d1-2c24-4fbf-ae97-6b7bc4359140")
+		)
+		(fp_line
+			(start 1.81 -1.37)
+			(end 1.81 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "85121ae9-7dc9-41e6-ba8e-78812c933984")
+		)
+		(fp_line
+			(start 1.81 1.37)
+			(end 8.35 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b37ec270-fda1-47cf-ae9f-6016ddd09ee2")
+		)
+		(fp_line
+			(start 8.35 -1.37)
+			(end 1.81 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "24618515-ce31-49fe-9864-dd3f76780dd9")
+		)
+		(fp_line
+			(start 8.35 1.37)
+			(end 8.35 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "36590534-bd7d-456a-ad58-82115042b82e")
+		)
+		(fp_line
+			(start 9.12 0)
+			(end 8.35 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e3d50e7a-001d-477a-a8b0-f0fd4cb906e3")
+		)
+		(fp_line
+			(start -1.05 -1.5)
+			(end -1.05 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a42b442a-138f-4c19-ad99-da0227602901")
+		)
+		(fp_line
+			(start -1.05 1.5)
+			(end 11.21 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "faefe606-cbc5-4a3c-9e85-9a953a15ecb3")
+		)
+		(fp_line
+			(start 11.21 -1.5)
+			(end -1.05 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "aa3f3967-843a-42f7-b181-7de87d378cd7")
+		)
+		(fp_line
+			(start 11.21 1.5)
+			(end 11.21 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9c167092-69e1-4659-9d62-31d9661f8382")
+		)
+		(fp_line
+			(start 0 0)
+			(end 1.93 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "71565505-cace-4315-967e-df4389f72840")
+		)
+		(fp_line
+			(start 1.93 -1.25)
+			(end 1.93 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "17f5390b-8b2a-4c36-b2c8-9cb733e5fd16")
+		)
+		(fp_line
+			(start 1.93 1.25)
+			(end 8.23 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6ef3c427-2be0-4912-a672-fa243f23a75e")
+		)
+		(fp_line
+			(start 8.23 -1.25)
+			(end 1.93 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "61e5ecc7-7a38-4227-9069-957eba93af5c")
+		)
+		(fp_line
+			(start 8.23 1.25)
+			(end 8.23 -1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c4193cae-1cf3-436f-84f4-35de54c765dc")
+		)
+		(fp_line
+			(start 10.16 0)
+			(end 8.23 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "420f20ec-70dc-4300-9146-c03393592b26")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 5.08 0 0)
+			(layer "F.Fab")
+			(uuid "17047216-27f1-41ea-a619-987b9aa1b13d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 18 "/Vcc")
+			(pintype "passive")
+			(uuid "012cc4e5-e47e-47c2-a1af-4443655db0f5")
+		)
+		(pad "2" thru_hole oval
+			(at 10.16 0)
+			(size 1.6 1.6)
+			(drill 0.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 73 "/GPIO")
+			(pintype "passive")
+			(uuid "a0d8791c-b759-4843-a861-a912aeeb2164")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "a6d65ec9-e5fd-4a21-a531-5fe1a69c7faf")
-		(at 96.3 77.5)
+		(at 251.9 76.55)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D129"
@@ -30732,7 +32115,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "7a95b382-a625-4237-97df-6230c9172932")
@@ -30752,7 +32135,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "aafe6000-24cf-49f9-a9e3-e3ed629c9314")
-		(at 78.6 88.6)
+		(at 29.765 70.55)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D92"
@@ -30974,7 +32357,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 67 "/E")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "4586fc14-caae-4c33-a3a8-8bda20344cf4")
@@ -30994,7 +32377,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "aca72d13-3c1c-40ef-85c6-3039f84903bf")
-		(at 96.3 88.6)
+		(at 251.9 87.65)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D131"
@@ -31216,7 +32599,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 68 "/A")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "44d3bc08-0cb2-4bba-8983-c0b281e86d51")
@@ -31236,7 +32619,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "acabf628-ffac-41d9-888d-83b9f9084b8e")
-		(at 107.9 38.95)
+		(at 263.5 38)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R10"
@@ -31511,7 +32894,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "ae3eede6-9f42-4d65-956c-d8496002194e")
-		(at 55 94.15)
+		(at 122.225 19.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D41"
@@ -31733,7 +33116,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 68 "/A")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ad5fd252-9600-47a6-a89e-ccccdd37b855")
@@ -31753,7 +33136,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "aeb405db-1343-4eb9-9aa1-a50492d75bd6")
-		(at 78.6 44.2)
+		(at 98.5 74.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D84"
@@ -31975,7 +33358,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "3bb8b64b-024a-48bd-9331-b53f83cf3ec5")
@@ -31995,7 +33378,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "afdda720-7901-4bb3-95bb-2b12ae563e98")
-		(at 102.2 33.1)
+		(at 257.8 32.15)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D134"
@@ -32217,7 +33600,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 68 "/A")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "8b593e22-fa9f-4b07-9b27-5f7eb480462e")
@@ -32237,7 +33620,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "b1f24d8a-c383-4bc9-b738-671460dcbb72")
-		(at 90.4 66.4)
+		(at 246 65.45)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D114"
@@ -32479,7 +33862,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "b3821b87-aade-4c8e-b0f9-f7772261cf41")
-		(at 60.9 44.2)
+		(at 128.735 49)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D45"
@@ -32494,7 +33877,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.27 2.96 0)
+			(at 1.275 2.96 0)
 			(layer "F.Fab")
 			(uuid "95bbf7ca-64b5-4fa5-b02e-1ecfa421f496")
 			(effects
@@ -32701,7 +34084,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "017643f0-1ebd-4d3c-a616-84b34d1242a1")
@@ -33080,7 +34463,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "b554e118-152c-4d70-9ca2-f3c01ac488c0")
-		(at 60.9 33.1)
+		(at 122.96 77.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D43"
@@ -33302,7 +34685,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "11f46516-b15b-45c3-99ab-1b8918cdbb31")
@@ -33322,7 +34705,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "b6db9fff-6a0e-4932-83e3-fd0590953408")
-		(at 72.7 60.85)
+		(at 92.5 21)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D74"
@@ -33544,7 +34927,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 68 "/A")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "e7bff402-a847-4908-9ed7-70da9aa9ebaa")
@@ -33564,7 +34947,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b8fdaf19-81f6-4c2d-98ab-e82a169a69ac")
-		(at 118.47 38.95)
+		(at 274.07 38)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R18"
@@ -33810,7 +35193,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 73 "/GPIO")
 			(pintype "passive")
 			(uuid "68e10d64-8b30-4b04-a50b-e2c6352d16e8")
 		)
@@ -33820,7 +35203,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 32 "Net-(Q13-C)")
+			(net 18 "/Vcc")
 			(pintype "passive")
 			(uuid "6c5bfc89-6019-484d-8eaf-8cbd36a9721a")
 		)
@@ -33839,7 +35222,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "b9192049-0268-4b56-ba12-a181a68616b7")
-		(at 78.6 83.05)
+		(at 29.765 65)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D91"
@@ -34061,7 +35444,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 67 "/E")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "13726fd5-bb6e-4950-8116-533f90096911")
@@ -34081,7 +35464,7 @@
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "b94d68c3-c22b-47d3-a15c-d61f84e38c9b")
-		(at 121.43 64.81)
+		(at 277.03 63.86)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q14"
@@ -34313,7 +35696,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "ba95c0d3-cd78-476e-930a-329d4f4ccade")
-		(at 102.2 49.75)
+		(at 182.5 34.35)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D137"
@@ -34535,7 +35918,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "7b4adec6-f0b9-42ed-ab1e-91a8f367dbd3")
@@ -34716,7 +36099,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "be4a6997-eeb7-4bc7-97d7-c1355694bdc0")
-		(at 96.3 49.75)
+		(at 251.9 48.8)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D124"
@@ -34938,7 +36321,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 67 "/E")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "3b898b95-2011-498d-af7f-a4e4050bbeed")
@@ -34958,7 +36341,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "be4b9460-a3a0-411d-9e0b-9b1cefecf9e9")
-		(at 72.7 71.95)
+		(at 93 80.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D76"
@@ -35180,7 +36563,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "dbc092e4-9c09-423c-818b-fbc66b1957c8")
@@ -35200,7 +36583,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "c3db23f9-7dbd-4591-a6f0-7be4cac6d85d")
-		(at 72.7 38.65)
+		(at 81 80.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D70"
@@ -35422,7 +36805,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "4292bb28-d26f-4189-ace1-b5beec05a354")
@@ -35442,7 +36825,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "c43ed75b-23ab-4b8f-b2c9-0b7ed8baa051")
-		(at 72.7 55.3)
+		(at 87 80.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D73"
@@ -35664,7 +37047,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "628e75c6-4d49-406f-ac2e-ba758168b2ba")
@@ -35684,7 +37067,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c69c6842-6832-491a-bcd3-5d2694984c4e")
-		(at 107.9 26.35)
+		(at 263.5 25.4)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R6"
@@ -35749,7 +37132,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/0fc184cc-cfeb-4c04-93f4-a72a7428ac18")
+		(path "/e2596040-48dc-448b-a9b3-de8e9ef550e4")
 		(sheetname "Root")
 		(sheetfile "digital clock.kicad_sch")
 		(attr through_hole)
@@ -35930,7 +37313,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pintype "passive")
 			(uuid "da975a07-b6f9-4e31-abe7-8df329e50174")
 		)
@@ -37100,11 +38483,11 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "c9dbc847-9d4b-4446-90f5-b20bb66fb7ee")
-		(at 84.5 55.3)
+		(at 44.54 24)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D99"
-			(at 1.27 -2.96 0)
+			(at 1.275 -3.35 0)
 			(layer "F.SilkS")
 			(uuid "c272fb22-2288-4817-88f1-d692d5a4fb93")
 			(effects
@@ -37322,7 +38705,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 68 "/A")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "317c35a3-a21c-40e2-af59-faf97ea53ef5")
@@ -37342,7 +38725,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "c9fb7e57-c255-4af1-9cd3-7d5e30e9e1e5")
-		(at 96.3 38.65)
+		(at 251.9 37.7)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D122"
@@ -37564,7 +38947,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 67 "/E")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "01e8f6ee-2a0c-4f66-9919-18eeda1ad7bb")
@@ -37584,7 +38967,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "cb0af77b-b109-497e-995c-43d4f55286a7")
-		(at 102.2 60.85)
+		(at 182.5 45.45)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D139"
@@ -37806,7 +39189,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "55e55ed7-7ad6-4aa4-af8d-7484c3d7c40d")
@@ -37826,7 +39209,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "cb97b581-9c45-4aad-b56d-86ade3eb35e4")
-		(at 66.8 33.1)
+		(at 147.225 31)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D56"
@@ -37841,7 +39224,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.27 2.96 0)
+			(at 86.67 -2.14 0)
 			(layer "F.Fab")
 			(uuid "4894aa27-ad9a-4d59-a975-ae19cb39f7bd")
 			(effects
@@ -38048,7 +39431,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "0fba9169-30e8-4eea-a586-35b12dab3c7c")
@@ -38065,10 +39448,285 @@
 			)
 		)
 	)
+	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(layer "F.Cu")
+		(uuid "cd5b3ee3-24d7-44cc-aa56-8e34923faca0")
+		(at 169.19 148.5)
+		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
+		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
+		(property "Reference" "R34"
+			(at 3.81 -1.92 0)
+			(layer "F.SilkS")
+			(uuid "f02f797a-7636-4b21-9c22-4181fec8ee9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 3.81 1.92 0)
+			(layer "F.Fab")
+			(uuid "abdbe469-e27e-4828-8add-ddd053ee9f23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b106fb9b-b9f5-4eeb-bdb6-2294bc05f6a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4d5ec11-09d6-4b8a-a011-3e9c186f5806")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1dd889d-b310-461f-bc58-244096011809")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/7d1dd688-bc22-45f8-9057-e2aa0c3974ce")
+		(sheetname "Root")
+		(sheetfile "digital clock.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 0.94 0)
+			(end 1.89 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b7b457f4-ac72-42c5-b539-71c14fea7534")
+		)
+		(fp_line
+			(start 1.89 -0.92)
+			(end 1.89 0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4d575286-d76e-4738-a33a-c8e8c324ea1a")
+		)
+		(fp_line
+			(start 1.89 0.92)
+			(end 5.73 0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b5e2e31c-654e-4a66-a297-97f6de2b2433")
+		)
+		(fp_line
+			(start 5.73 -0.92)
+			(end 1.89 -0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "20471b8a-7b88-4939-9668-c3f67cc07053")
+		)
+		(fp_line
+			(start 5.73 0.92)
+			(end 5.73 -0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b1dbfbac-2fc5-44cb-9eaa-5e15e55f2c71")
+		)
+		(fp_line
+			(start 6.68 0)
+			(end 5.73 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "11aab7ff-7c7a-43a1-ae5f-92b8cd56a47e")
+		)
+		(fp_line
+			(start -0.95 -1.05)
+			(end -0.95 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c6ab8b93-e232-4de1-9354-57ed9be49dcd")
+		)
+		(fp_line
+			(start -0.95 1.05)
+			(end 8.57 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9e9a8709-3034-47e0-bca4-e6354d864fc9")
+		)
+		(fp_line
+			(start 8.57 -1.05)
+			(end -0.95 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8f898e3d-8344-4e99-8e46-0a65bbfcfc53")
+		)
+		(fp_line
+			(start 8.57 1.05)
+			(end 8.57 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "11406c36-47ad-4434-ba1d-1cfaf8190c67")
+		)
+		(fp_line
+			(start 0 0)
+			(end 2.01 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9b0d7b6c-5cfd-4a9d-b8e7-ab6cd2b57a49")
+		)
+		(fp_line
+			(start 2.01 -0.8)
+			(end 2.01 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "796944d0-c690-49ad-8226-69a64010aefa")
+		)
+		(fp_line
+			(start 2.01 0.8)
+			(end 5.61 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5a2dc43a-730b-4a71-90d7-1de4952c413f")
+		)
+		(fp_line
+			(start 5.61 -0.8)
+			(end 2.01 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "663751fc-64e0-43cb-8d02-55a449ed4964")
+		)
+		(fp_line
+			(start 5.61 0.8)
+			(end 5.61 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cbb4626c-3db0-4f89-a0ed-9902a91b3bff")
+		)
+		(fp_line
+			(start 7.62 0)
+			(end 5.61 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "592807ea-9556-405f-bd6a-afbadd8e041a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 3.81 0 0)
+			(layer "F.Fab")
+			(uuid "b5b9088d-a8f1-4ee4-ac56-23c95c418c58")
+			(effects
+				(font
+					(size 0.72 0.72)
+					(thickness 0.108)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 73 "/GPIO")
+			(pintype "passive")
+			(uuid "f791b3f5-00f3-4ac0-a6ba-52ebd11801ff")
+		)
+		(pad "2" thru_hole oval
+			(at 7.62 0)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 18 "/Vcc")
+			(pintype "passive")
+			(uuid "93ada354-7191-4554-88ce-644b4f1cb327")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
 		(uuid "cde5b94d-05bc-41e1-93df-8474f5028b5c")
-		(at 108.41 64.81)
+		(at 264.01 63.86)
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "Q3"
@@ -38300,7 +39958,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "d2742753-b6d0-43e2-8771-afe745cef473")
-		(at 107.9 45.25)
+		(at 263.5 44.3)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R12"
@@ -38365,7 +40023,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/80b4d577-3ffa-4b5b-a7c9-86ee7d611ec0")
+		(path "/b18d01cd-b6d3-4f8f-9147-5f11313c5a6d")
 		(sheetname "Root")
 		(sheetfile "digital clock.kicad_sch")
 		(attr through_hole)
@@ -38556,7 +40214,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 73 "/GPIO")
 			(pintype "passive")
 			(uuid "58aa530d-1408-440d-ac53-aa0547cbd2cc")
 		)
@@ -38575,7 +40233,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "d4af330f-16ee-472e-88e2-62aefc4dc5ea")
-		(at 96.3 27.55)
+		(at 251.9 26.6)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D120"
@@ -38797,7 +40455,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 66 "/F")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "ef352748-a0ea-49fb-9360-eedb3a07b720")
@@ -38817,7 +40475,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "d546d3d6-0dff-4012-b810-1692ba2c5faf")
-		(at 55 49.75)
+		(at 116.225 25.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D33"
@@ -38832,7 +40490,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.27 2.96 0)
+			(at 1.735 2.96 0)
 			(layer "F.Fab")
 			(uuid "d6627917-4261-4745-89bf-34f0d685523e")
 			(effects
@@ -39039,7 +40697,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 66 "/F")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "84fc7cba-adab-47e6-9677-65e04356a0dd")
@@ -39063,7 +40721,7 @@
 		(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
 		(tags "TO-220-3 Vertical RM 2.54mm")
 		(property "Reference" "U1"
-			(at 2.54 -4.27 360)
+			(at 2.54 -4.27 0)
 			(layer "F.SilkS")
 			(uuid "495ba4fd-0fc1-4082-8b0c-d0e270cf9c4e")
 			(effects
@@ -39074,7 +40732,7 @@
 			)
 		)
 		(property "Value" "LM337_TO220"
-			(at 2.54 2.5 360)
+			(at 2.54 2.5 0)
 			(layer "F.Fab")
 			(uuid "2f8db1d6-3e6d-4b67-8587-fa366988e091")
 			(effects
@@ -39322,7 +40980,7 @@
 			(uuid "1c91d6d7-99af-4399-a1d2-dc9eb7318856")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -4.27 360)
+			(at 2.54 -4.27 0)
 			(layer "F.Fab")
 			(uuid "dbd363e3-1efd-47ce-b1b8-1c0cd212e6a9")
 			(effects
@@ -39380,7 +41038,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "dce82797-b7b3-4650-9b02-6425b66cdd58")
-		(at 90.4 44.2)
+		(at 55 59.45)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D110"
@@ -39602,7 +41260,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "8fdcbdae-da6f-4d15-9263-ad5a1d826c28")
@@ -39622,7 +41280,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "def3e887-0761-433f-bcc3-aa2ebf2e1ffb")
-		(at 90.4 49.75)
+		(at 55 65)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D111"
@@ -39844,7 +41502,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "8267aa28-4e89-462a-9cd7-acd6593b0a4b")
@@ -39864,7 +41522,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "defeca0f-4de6-4a32-8c5c-2552dfc73cba")
-		(at 118.47 48.4)
+		(at 274.07 47.45)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R21"
@@ -40139,7 +41797,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "df7d3626-1266-44ae-a98b-08d04857d2b8")
-		(at 90.4 60.85)
+		(at 246 59.9)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D113"
@@ -40381,7 +42039,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "dff0e462-e983-490a-9322-4388ac0ff2aa")
-		(at 129.04 32.65)
+		(at 284.64 31.7)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R24"
@@ -40871,7 +42529,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "e388454a-86a4-4f27-a536-aa491ae65d7c")
-		(at 72.7 49.75)
+		(at 86.5 50)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D72"
@@ -41093,7 +42751,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "07d21099-5d59-41a3-9588-f10706f15cfd")
@@ -41113,7 +42771,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "e80a4bca-dc52-4545-a271-b6c36568a089")
-		(at 66.8 27.55)
+		(at 69 62.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D55"
@@ -41335,7 +42993,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 67 "/E")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "632409a4-6357-4c0a-a9ea-10c99ed2e173")
@@ -41355,7 +43013,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "e82d5114-1fa4-4670-afbb-a3b8d1443577")
-		(at 84.5 71.95)
+		(at 49.765 24)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D102"
@@ -41577,7 +43235,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 68 "/A")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "badf13ca-5863-4811-b7c7-55fc495ad934")
@@ -41597,7 +43255,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "ec462b80-c050-48c6-aa55-8e37e960a481")
-		(at 102.2 88.6)
+		(at 182.66 74.05)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D144"
@@ -41819,7 +43477,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "f4c12312-ab5d-4ca6-b763-15904df75458")
@@ -41839,7 +43497,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "ecc2f4a0-a765-48eb-bc22-6042043d28ab")
-		(at 72.7 27.55)
+		(at 80.5 21)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D68"
@@ -42061,7 +43719,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 68 "/A")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "4a86dc33-6761-4af3-9e95-a5168e283d32")
@@ -42081,7 +43739,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "ed910c6c-4f62-4e0e-b31c-bc499f941ae3")
-		(at 60.9 27.55)
+		(at 122.46 49)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D42"
@@ -42096,7 +43754,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.27 2.96 0)
+			(at 1.275 3 0)
 			(layer "F.Fab")
 			(uuid "a69ff154-18ce-4ca0-a5f5-7f986efb3ed8")
 			(effects
@@ -42303,7 +43961,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "cc39b280-641d-4394-aa02-a082b188b8ea")
@@ -42323,7 +43981,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "ee362875-c30f-4bab-a625-56a2b622b9f7")
-		(at 84.5 94.15)
+		(at 54.765 34.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D106"
@@ -42545,7 +44203,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "7ee4281e-9d73-4121-bff6-431eb2f1cd38")
@@ -42562,10 +44220,285 @@
 			)
 		)
 	)
+	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(layer "F.Cu")
+		(uuid "ef4e8760-3ab3-4cef-9a09-9bd9dfdd8ae6")
+		(at 169.19 139.05)
+		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
+		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
+		(property "Reference" "R31"
+			(at 3.81 -1.92 0)
+			(layer "F.SilkS")
+			(uuid "ac2c279f-8a0d-4d42-97a1-dfcf5d8384ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 3.81 1.92 0)
+			(layer "F.Fab")
+			(uuid "8173e373-be22-4dc2-9383-4be148be8397")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c5575e0-33bd-45c9-aa0d-bf722df34bdb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a4f4a59-71d8-4f01-b848-04937a27a0f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b846ebe-1d4e-4e49-907e-e39b7fe9b9c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/938c2c09-4d70-417b-928e-ee7ccdc7310c")
+		(sheetname "Root")
+		(sheetfile "digital clock.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 0.94 0)
+			(end 1.89 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9df977bb-05d9-470b-95d1-74085b7d6e41")
+		)
+		(fp_line
+			(start 1.89 -0.92)
+			(end 1.89 0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8b793ed1-4c05-41f4-bdfb-cdc47fb51fe1")
+		)
+		(fp_line
+			(start 1.89 0.92)
+			(end 5.73 0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ebf659c0-c309-4da8-882a-f8ae39414b2d")
+		)
+		(fp_line
+			(start 5.73 -0.92)
+			(end 1.89 -0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "83bf27fa-525c-4423-a594-6b3b2bd79cce")
+		)
+		(fp_line
+			(start 5.73 0.92)
+			(end 5.73 -0.92)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "450f0d69-ee1c-4e6d-acf1-c15df1ec636b")
+		)
+		(fp_line
+			(start 6.68 0)
+			(end 5.73 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "52d79bba-01bb-43b1-aeff-2148821320be")
+		)
+		(fp_line
+			(start -0.95 -1.05)
+			(end -0.95 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6fdfb5c5-c507-4100-b0ce-f75717b26c8b")
+		)
+		(fp_line
+			(start -0.95 1.05)
+			(end 8.57 1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f7a90ab4-1b36-4e33-afd7-edec63c68931")
+		)
+		(fp_line
+			(start 8.57 -1.05)
+			(end -0.95 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e0e49a66-6320-48aa-ade2-bf20b2742a82")
+		)
+		(fp_line
+			(start 8.57 1.05)
+			(end 8.57 -1.05)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "12c73f99-a123-44ac-a2e3-34e2c3e6b8f7")
+		)
+		(fp_line
+			(start 0 0)
+			(end 2.01 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "66a96566-0eb2-477a-b34d-0e8ad8321b01")
+		)
+		(fp_line
+			(start 2.01 -0.8)
+			(end 2.01 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6d4e3c9e-ad94-497a-af63-f50bbaa0969d")
+		)
+		(fp_line
+			(start 2.01 0.8)
+			(end 5.61 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "688e5188-0897-47a5-ac5a-431bec73b69a")
+		)
+		(fp_line
+			(start 5.61 -0.8)
+			(end 2.01 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c5f45a48-e0a6-402e-b5a2-83018c43cef4")
+		)
+		(fp_line
+			(start 5.61 0.8)
+			(end 5.61 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "92ddb7f3-b8da-4843-994b-e7146fd7992a")
+		)
+		(fp_line
+			(start 7.62 0)
+			(end 5.61 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ee073798-e222-423b-8f2c-40cc6b238671")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 3.81 0 0)
+			(layer "F.Fab")
+			(uuid "4abd2983-5401-405c-b3ca-d74281a7b10b")
+			(effects
+				(font
+					(size 0.72 0.72)
+					(thickness 0.108)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 66 "/F")
+			(pintype "passive")
+			(uuid "b121c0b6-93e8-4d03-aa0f-300e16f05413")
+		)
+		(pad "2" thru_hole oval
+			(at 7.62 0)
+			(size 1.4 1.4)
+			(drill 0.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 32 "Net-(Q13-C)")
+			(pintype "passive")
+			(uuid "77e86aab-862f-4c97-bd37-a5a9375f56ca")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "f16c121f-1bd4-4322-92f7-a8e4d5d38390")
-		(at 66.8 66.4)
+		(at 146.725 59.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D62"
@@ -42787,7 +44720,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "4b85039c-5a1c-41da-83e7-48d8107a09d8")
@@ -42807,7 +44740,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "f1cdaa37-a5ad-4839-9102-cccf2154911a")
-		(at 84.5 33.1)
+		(at 32.5 76)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D95"
@@ -42822,7 +44755,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.27 2.96 0)
+			(at 225.98 33.86 0)
 			(layer "F.Fab")
 			(uuid "158db95c-84ab-4dbf-9455-dde419def393")
 			(effects
@@ -43029,7 +44962,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "aba34c23-55b1-4762-b199-3f508a93e695")
@@ -43049,7 +44982,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "f2030398-bb87-45a4-86c2-9a164c5cd6fa")
-		(at 84.5 44.2)
+		(at 39.765 49.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D97"
@@ -43271,7 +45204,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 69 "/G")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "23eaa01e-33cd-470c-9990-a3699ac396a5")
@@ -43291,7 +45224,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "f223097a-241e-4b16-92e8-dbd3a6b2df41")
-		(at 96.3 44.2)
+		(at 251.9 43.25)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D123"
@@ -43513,7 +45446,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 67 "/E")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "7c3417f8-cb6b-4a7f-8aa3-ca4ec4df48bf")
@@ -43533,7 +45466,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f7534e74-f6f1-4c70-a0d0-3686aefdf2a5")
-		(at 118.47 29.5)
+		(at 274.07 28.55)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R15"
@@ -43779,7 +45712,7 @@
 			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 73 "/GPIO")
 			(pintype "passive")
 			(uuid "0b9d417d-5910-4f0a-b68c-5d238a2c8f87")
 		)
@@ -43808,7 +45741,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "f7e5db79-ef63-4037-b913-4951116d6b1f")
-		(at 60.9 38.65)
+		(at 128.5 19.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D44"
@@ -44030,7 +45963,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 68 "/A")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "d910a127-e407-46a7-a491-a07fcfa44e36")
@@ -44050,7 +45983,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "f8c93588-0936-414a-ad12-87d3d170e905")
-		(at 102.2 77.5)
+		(at 182.5 62.1)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D142"
@@ -44272,7 +46205,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "7da3e820-723c-4810-8d8c-157a87ac15c9")
@@ -44292,7 +46225,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "fb2c9119-c27a-4709-8ba4-9a34dd4fd038")
-		(at 78.6 38.65)
+		(at 98.5 68.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D83"
@@ -44514,7 +46447,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "07f9ebff-2fbf-4252-99f6-66064b82729f")
@@ -44534,7 +46467,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "fe8b2afc-584c-404c-b4d3-64f0f5ad5655")
-		(at 129.04 35.8)
+		(at 284.64 34.85)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R25"
@@ -44809,7 +46742,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "fe93eaac-c37a-4682-8092-00995ea64eec")
-		(at 90.4 33.1)
+		(at 54.765 44)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D108"
@@ -45031,7 +46964,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 71 "/B")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "6e77b6e2-575c-475d-b29c-06b2c4447f91")
@@ -45051,7 +46984,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "ff02de31-1da4-4792-b337-d03843f57997")
-		(at 90.4 38.65)
+		(at 55 53.9)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D109"
@@ -45273,7 +47206,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 72 "/C")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "b888e01c-959e-4afa-a316-153dfd42ae9d")
@@ -45293,7 +47226,7 @@
 	(footprint "LED_THT:LED_D3.0mm"
 		(layer "F.Cu")
 		(uuid "ff14123d-5474-412e-b3dd-38f3c463da4d")
-		(at 60.9 83.05)
+		(at 141.46 77.5)
 		(descr "LED, diameter 3.0mm, 2 pins")
 		(tags "LED diameter 3.0mm 2 pins")
 		(property "Reference" "D52"
@@ -45515,7 +47448,7 @@
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "GND")
+			(net 70 "/D")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "6f5828be-bb4d-49f8-994b-4cf3fd42ef71")
@@ -45533,8 +47466,8 @@
 		)
 	)
 	(gr_rect
-		(start 30 18)
-		(end 244 168)
+		(start 22.317961 12.785164)
+		(end 236.317961 162.785164)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -45562,7 +47495,7 @@
 		)
 		(polygon
 			(pts
-				(xy 28.5 19) (xy 244 18.5) (xy 244.5 169) (xy 29.5 168.5)
+				(xy 20.817961 13.785164) (xy 236.317961 13.285164) (xy 236.817961 163.785164) (xy 21.817961 163.285164)
 			)
 		)
 	)
