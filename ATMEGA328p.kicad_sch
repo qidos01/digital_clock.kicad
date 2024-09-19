@@ -1840,6 +1840,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 39.37) (xy 95.25 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32271ba3-a15e-4ff2-a972-6833cd854313")
+	)
+	(wire
+		(pts
 			(xy 124.46 62.23) (xy 133.35 62.23)
 		)
 		(stroke
@@ -1897,6 +1907,16 @@
 			(type default)
 		)
 		(uuid "4ef1b2b0-c518-43ac-b212-f649a99546c6")
+	)
+	(wire
+		(pts
+			(xy 81.28 97.79) (xy 90.17 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6a4709-e637-4613-9a97-555fd78de150")
 	)
 	(wire
 		(pts
@@ -1980,6 +2000,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 77.47) (xy 88.9 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "736e6a7d-75a2-4936-b742-9b91d6721f56")
+	)
+	(wire
+		(pts
 			(xy 144.78 57.15) (xy 144.78 62.23)
 		)
 		(stroke
@@ -2000,6 +2030,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 90.17) (xy 90.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903f460f-66ba-4b82-9522-7440827f4a29")
+	)
+	(wire
+		(pts
 			(xy 81.28 69.85) (xy 95.25 69.85)
 		)
 		(stroke
@@ -2007,6 +2047,16 @@
 			(type default)
 		)
 		(uuid "9223288f-2876-46e7-a9d0-0a51e5689f72")
+	)
+	(wire
+		(pts
+			(xy 81.28 95.25) (xy 90.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981565ed-ea2c-4b46-a059-6c9c78aeeec3")
 	)
 	(wire
 		(pts
@@ -2040,6 +2090,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 100.33) (xy 90.17 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee2a039-878d-4589-9e95-d79a90c640ea")
+	)
+	(wire
+		(pts
 			(xy 81.28 74.93) (xy 90.17 74.93)
 		)
 		(stroke
@@ -2047,6 +2107,16 @@
 			(type default)
 		)
 		(uuid "c376cfd8-f56c-46ff-964a-15e274465dd6")
+	)
+	(wire
+		(pts
+			(xy 81.28 87.63) (xy 90.17 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd81bb3f-4414-4ee4-afbf-53b21d1cdedb")
 	)
 	(wire
 		(pts
@@ -2100,6 +2170,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 92.71) (xy 90.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa862226-b062-4efd-bad1-d2a66fc71db9")
+	)
+	(wire
+		(pts
 			(xy 210.82 72.39) (xy 213.36 72.39)
 		)
 		(stroke
@@ -2119,6 +2199,50 @@
 		)
 		(uuid "02a79a86-4852-4352-aafc-da166f183d00")
 	)
+	(label "Led A"
+		(at 82.55 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fac83b1-f457-4f6b-9318-70e436bf28bf")
+	)
+	(label "RST"
+		(at 176.53 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b0eab41-24a8-4618-aa3d-204a6ca19afa")
+	)
+	(label "Led F"
+		(at 82.55 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b148a1b-3038-4f85-bf03-7ca34a3bb472")
+	)
+	(label "RST"
+		(at 86.36 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ca3aedd-0dc0-4017-9066-0182a7d52590")
+	)
 	(label "SDA"
 		(at 83.82 72.39 0)
 		(fields_autoplaced yes)
@@ -2130,6 +2254,28 @@
 		)
 		(uuid "36f5b773-3495-4d2e-a065-a49a887bf6e5")
 	)
+	(label "Led E"
+		(at 82.55 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cdb0ac3-301f-4d47-b189-d6a4b97b24b2")
+	)
+	(label "Led F"
+		(at 82.55 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4285ea0f-7535-4d13-9e11-7d1bfddb3387")
+	)
 	(label "hour"
 		(at 82.55 67.31 0)
 		(fields_autoplaced yes)
@@ -2140,6 +2286,17 @@
 			(justify left bottom)
 		)
 		(uuid "538bb393-331d-4e88-8a61-449944001eb8")
+	)
+	(label "Led D"
+		(at 82.55 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "588cb2ee-dc55-473d-bcf9-137f13f311d0")
 	)
 	(label "Selector"
 		(at 82.55 64.77 0)
@@ -2163,6 +2320,28 @@
 		)
 		(uuid "86eb07cb-fb6b-4243-a477-a30f1b9665a4")
 	)
+	(label "Led C"
+		(at 82.55 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "954ad0c6-e8f3-470e-a8cb-08965530acf0")
+	)
+	(label "Led B"
+		(at 82.55 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dcdb255-9ecd-404e-a7f7-c60a87c41be7")
+	)
 	(label "SCL"
 		(at 83.82 74.93 0)
 		(fields_autoplaced yes)
@@ -2173,6 +2352,17 @@
 			(justify left bottom)
 		)
 		(uuid "a16d9c45-0398-4637-b6d3-e65e2acb2d2d")
+	)
+	(label "Led G"
+		(at 85.09 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1f77b7f-e7f5-4dc3-bcd8-9ab08595f1d9")
 	)
 	(label "Selector"
 		(at 140.97 77.47 0)
@@ -2425,7 +2615,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 174.752 70.358 0)
 			(effects
 				(font
@@ -2434,7 +2624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 175.006 68.834 90)
 			(effects
 				(font
@@ -2848,7 +3038,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 220.98 76.1999 0)
 			(effects
 				(font
@@ -2857,7 +3047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 219.456 75.184 90)
 			(effects
 				(font
@@ -2918,7 +3108,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 182.88 69.8499 0)
 			(effects
 				(font
@@ -2927,7 +3117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 181.356 68.834 90)
 			(effects
 				(font
@@ -3363,7 +3553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 214.376 69.85 0)
 			(effects
 				(font
@@ -3372,7 +3562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 214.376 68.834 90)
 			(effects
 				(font

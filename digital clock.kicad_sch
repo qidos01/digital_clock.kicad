@@ -8930,7 +8930,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 494.538 136.398 90)
 			(effects
 				(font
@@ -10593,7 +10593,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "395832bd-261b-4033-9334-b43c3cbddd28")
 		(property "Reference" "Q9"
 			(at 242.57 214.6299 0)
@@ -11021,15 +11020,15 @@
 		(dnp no)
 		(uuid "426a8be9-30c9-4acc-86ee-c6c4a22a9c15")
 		(property "Reference" "R9"
-			(at 500.38 96.52 90)
+			(at 500.38 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_US"
-			(at 500.38 99.06 90)
+		(property "Value" "10k"
+			(at 500.634 96.774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11509,7 +11508,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "33"
 			(at 493.776 183.388 90)
 			(effects
 				(font
@@ -11652,7 +11651,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "33"
 			(at 461.264 197.612 90)
 			(effects
 				(font
@@ -11999,7 +11998,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 464.82 160.02 90)
 			(effects
 				(font
@@ -12142,7 +12141,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 476.25 120.65 90)
 			(effects
 				(font
@@ -12761,18 +12760,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "69cd4ad0-f4eb-42ec-8c9b-1a27ece86ec6")
 		(property "Reference" "R25"
-			(at 328.93 209.55 90)
+			(at 329.184 218.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_US"
-			(at 328.93 212.09 90)
+		(property "Value" "10k"
+			(at 328.93 214.376 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12838,7 +12836,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 223.52 220.472 90)
 			(effects
 				(font
@@ -13173,18 +13171,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "75a564c7-495f-4fb1-8bec-fa5ac048c42e")
 		(property "Reference" "R22"
-			(at 143.51 210.82 90)
+			(at 143.002 213.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_US"
-			(at 143.51 213.36 90)
+		(property "Value" "10k"
+			(at 143.256 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13390,7 +13387,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 443.484 189.484 90)
 			(effects
 				(font
@@ -13937,7 +13934,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 455.676 190.754 90)
 			(effects
 				(font
@@ -13995,18 +13992,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "873a7dec-9b7e-46b1-ae81-d97b512257b5")
 		(property "Reference" "R21"
-			(at 223.52 204.47 90)
+			(at 223.52 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_US"
-			(at 223.52 207.01 90)
+		(property "Value" "1k"
+			(at 223.52 208.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14556,7 +14552,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "33"
 			(at 467.36 167.132 90)
 			(effects
 				(font
@@ -14692,7 +14688,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 488.95 171.45 90)
 			(effects
 				(font
@@ -15384,18 +15380,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a473d15f-6cae-44dd-9eb1-5f870973c57a")
 		(property "Reference" "R28"
-			(at 505.46 74.93 90)
+			(at 506.222 78.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_US"
-			(at 505.46 77.47 90)
+		(property "Value" "33"
+			(at 505.714 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15739,7 +15734,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 473.71 111.7599 0)
 			(effects
 				(font
@@ -16152,7 +16147,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 499.364 78.486 90)
 			(effects
 				(font
@@ -16286,18 +16281,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b3027eeb-7dcb-4b52-b52b-421ee891f873")
 		(property "Reference" "R24"
-			(at 332.74 204.47 90)
+			(at 332.994 206.756 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_US"
-			(at 332.74 207.01 90)
+		(property "Value" "1k"
+			(at 332.74 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16851,7 +16845,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 488.95 181.61 90)
 			(effects
 				(font
@@ -17124,7 +17118,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 495.3 68.5799 0)
 			(effects
 				(font
@@ -17965,16 +17959,15 @@
 		(dnp no)
 		(uuid "dd9aef8f-7827-4c39-8db2-1767191b0b59")
 		(property "Reference" "R18"
-			(at 466.09 150.368 90)
+			(at 462.28 150.622 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_US"
-			(at 462.788 150.368 90)
-			(show_name yes)
+		(property "Value" "1k"
+			(at 457.708 150.622 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18178,7 +18171,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "33"
 			(at 503.174 102.108 90)
 			(effects
 				(font
@@ -18245,7 +18238,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "33"
 			(at 500.126 141.478 90)
 			(effects
 				(font
@@ -18383,7 +18376,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 148.59 208.28 90)
 			(effects
 				(font
@@ -18729,7 +18722,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "33"
 			(at 476.25 126.492 90)
 			(effects
 				(font
@@ -18934,7 +18927,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 401.32 219.456 90)
 			(effects
 				(font
@@ -19207,7 +19200,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 402.59 208.28 90)
 			(effects
 				(font
@@ -19418,7 +19411,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 497.84 90.1699 0)
 			(effects
 				(font
@@ -19831,7 +19824,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "1k"
 			(at 486.918 133.604 90)
 			(effects
 				(font
