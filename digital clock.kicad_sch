@@ -8347,7 +8347,7 @@
 		)
 		(uuid "1c54dfc7-f2bc-4936-bf6f-3563e1118a86")
 	)
-	(label "GPIO"
+	(label "Led F"
 		(at 453.39 154.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8402,7 +8402,7 @@
 		)
 		(uuid "36c4786c-d29b-44b1-86f1-9051c82d7931")
 	)
-	(label "GPIO"
+	(label "Led C"
 		(at 466.09 115.57 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8424,7 +8424,7 @@
 		)
 		(uuid "4b5f3b10-ddfc-4d01-8839-5ff9bdd52307")
 	)
-	(label "GPIO"
+	(label "Led G"
 		(at 478.79 176.53 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8534,7 +8534,7 @@
 		)
 		(uuid "6f017a27-4127-45d7-a8d9-cf417c13c0b5")
 	)
-	(label "GPIO"
+	(label "Led D"
 		(at 441.96 194.31 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8545,7 +8545,7 @@
 		)
 		(uuid "72a9e943-9abe-4e77-b3d1-72c036d28d33")
 	)
-	(label "GPIO"
+	(label "Led A"
 		(at 486.41 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8556,7 +8556,7 @@
 		)
 		(uuid "77d5d10f-c4ac-46a8-9057-ca5d62da91d0")
 	)
-	(label "GPIO"
+	(label "Led E"
 		(at 483.87 138.43 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8721,7 +8721,7 @@
 		)
 		(uuid "ca8dc883-d706-4932-b9da-4ac49b7d02b5")
 	)
-	(label "GPIO"
+	(label "Led B"
 		(at 490.22 93.98 0)
 		(fields_autoplaced yes)
 		(effects
